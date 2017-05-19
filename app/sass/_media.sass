@@ -1,0 +1,112 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.container__inner
+		padding: 0 10px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 870px)
+	.title__text
+		h1
+			font-size: 2.5em
+			margin: 0
+
+	.row__flexible
+		.remote, .plugin, .cabinets, .cases, .systems
+			h5
+				font-size: .5em
+	.other__content-item
+		h2
+			font-size: 2em
+	.shadow 
+		.shadow__img
+			z-index: 0
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 760px)
+	.shadow
+		box-shadow: none
+
+	.shadow__img
+		margin: 0 auto 20px
+
+	.other__content-item
+		h2
+			left: 40%
+	.row__flexible
+		justify-content: space-around
+		.remote, .plugin, .cabinets, .cases, .systems
+			flex-basis: 26%
+			margin-bottom: 20px
+	.footer
+		.col-xs-12
+			text-align: center
+		.footer__list
+		 	nav
+		 		ul
+		 			justify-content: center
+		 			padding: 0
+	
+	.fade
+		display: none
+
+	.title__text
+		background: url(../img/slide1.png)
+		position: static
+		padding: 0 0 40px 25px
+	.content__products 
+		h2
+			margin: 0 0 15px 
+	.content__products 
+		.row__flexible
+			justify-content: space-around
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 550px)
+	.header__list
+		display: none
+
+	.btn-menu
+		display: block
+
+	.mobile__logo 
+		max-width: inherit
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+
+	.content__products
+		.row__flexible
+			flex-direction: column
+			align-items: center
+
+	.other__content-item 
+		h2
+			left: 25%
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
